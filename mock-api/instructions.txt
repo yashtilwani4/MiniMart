@@ -1,0 +1,99 @@
+========================================
+MINIMART MOCK API - SETUP INSTRUCTIONS
+========================================
+
+This mock API uses JSON Server to simulate a REST API for the MiniMart app.
+
+PREREQUISITES:
+--------------
+- Node.js installed (v14 or higher)
+- npm or yarn package manager
+
+INSTALLATION:
+-------------
+1. Install json-server globally (if not already installed):
+   npm install -g json-server
+
+   OR install it locally in the project:
+   npm install json-server --save-dev
+
+RUNNING THE MOCK API:
+---------------------
+1. From the project root directory, run:
+   npm run mock-api
+
+   OR directly:
+   json-server --watch mock-api/db.json --port 3000
+
+2. The API will start at: http://localhost:3000
+
+3. You should see output like:
+   Resources
+   http://localhost:3000/categories
+   http://localhost:3000/products
+   http://localhost:3000/banners
+
+AVAILABLE ENDPOINTS:
+--------------------
+GET    /categories          - Get all categories
+GET    /categories/:id      - Get single category
+GET    /products            - Get all products
+GET    /products/:id        - Get single product
+GET    /banners             - Get all banners
+
+FILTERING & SEARCHING:
+----------------------
+- Filter by category:
+  GET /products?category=Fruits
+
+- Search by name:
+  GET /products?name_like=Apple
+
+- Pagination:
+  GET /products?_page=1&_limit=10
+
+- Sorting:
+  GET /products?_sort=price&_order=asc
+
+TESTING THE API:
+----------------
+1. Open browser and visit: http://localhost:3000/products
+2. You should see JSON response with all products
+
+CONNECTING TO REACT NATIVE APP:
+--------------------------------
+For Android Emulator:
+- Update API_BASE_URL in src/constants/theme.ts to:
+  export const API_BASE_URL = 'http://10.0.2.2:3000';
+
+For iOS Simulator:
+- Use: http://localhost:3000
+
+For Physical Device:
+- Find your computer's local IP address
+- Update to: http://YOUR_IP_ADDRESS:3000
+- Example: http://192.168.1.100:3000
+
+TROUBLESHOOTING:
+----------------
+1. Port already in use:
+   - Change port: json-server --watch mock-api/db.json --port 3001
+   - Update API_BASE_URL in the app accordingly
+
+2. Cannot connect from device:
+   - Ensure device and computer are on same WiFi network
+   - Check firewall settings
+   - Use your computer's local IP address
+
+3. CORS issues:
+   - JSON Server has CORS enabled by default
+   - If issues persist, add --no-cors flag
+
+NOTES:
+------
+- Data persists in db.json file
+- Changes made via API will update the file
+- Restart server to reset data
+- For production, replace with real backend API
+
+========================================

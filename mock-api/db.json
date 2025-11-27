@@ -1,0 +1,285 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Vegetables",
+      "image": "https://cdn-icons-png.flaticon.com/512/2153/2153786.png",
+      "color": "#E8F5E9"
+    },
+    {
+      "id": "2",
+      "name": "Fruits",
+      "image": "https://cdn-icons-png.flaticon.com/512/415/415733.png",
+      "color": "#FFF3E0"
+    },
+    {
+      "id": "3",
+      "name": "Dairy",
+      "image": "https://cdn-icons-png.flaticon.com/512/869/869636.png",
+      "color": "#E3F2FD"
+    },
+    {
+      "id": "4",
+      "name": "Bakery",
+      "image": "https://cdn-icons-png.flaticon.com/512/3081/3081559.png",
+      "color": "#FFF9C4"
+    },
+    {
+      "id": "5",
+      "name": "Snacks",
+      "image": "https://cdn-icons-png.flaticon.com/512/3050/3050156.png",
+      "color": "#FCE4EC"
+    },
+    {
+      "id": "6",
+      "name": "Beverages",
+      "image": "https://cdn-icons-png.flaticon.com/512/2405/2405479.png",
+      "color": "#F3E5F5"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Fresh Tomatoes",
+      "price": 40,
+      "image": "https://cdn-icons-png.flaticon.com/512/1202/1202045.png",
+      "category": "Vegetables",
+      "description": "Fresh, juicy tomatoes handpicked from local farms. Perfect for salads, cooking, and making sauces. Rich in vitamins and antioxidants.",
+      "rating": 4.5,
+      "unit": "500g",
+      "discount": 10,
+      "inStock": true
+    },
+    {
+      "id": "p2",
+      "name": "Organic Bananas",
+      "price": 50,
+      "image": "https://cdn-icons-png.flaticon.com/512/2909/2909761.png",
+      "category": "Fruits",
+      "description": "Premium quality organic bananas. Rich in potassium and natural energy. Perfect for smoothies and healthy snacking.",
+      "rating": 4.8,
+      "unit": "1 dozen",
+      "inStock": true
+    },
+    {
+      "id": "p3",
+      "name": "Fresh Milk",
+      "price": 60,
+      "image": "https://cdn-icons-png.flaticon.com/512/869/869636.png",
+      "category": "Dairy",
+      "description": "Pure and fresh full cream milk. Pasteurized and homogenized for safety. Rich in calcium and protein.",
+      "rating": 4.7,
+      "unit": "1 Liter",
+      "discount": 5,
+      "inStock": true
+    },
+    {
+      "id": "p4",
+      "name": "Whole Wheat Bread",
+      "price": 45,
+      "image": "https://cdn-icons-png.flaticon.com/512/3081/3081559.png",
+      "category": "Bakery",
+      "description": "Freshly baked whole wheat bread. Made with 100% whole grain flour. High in fiber and nutrients.",
+      "rating": 4.6,
+      "unit": "400g",
+      "inStock": true
+    },
+    {
+      "id": "p5",
+      "name": "Potato Chips",
+      "price": 30,
+      "image": "https://cdn-icons-png.flaticon.com/512/3050/3050156.png",
+      "category": "Snacks",
+      "description": "Crispy and delicious potato chips. Made from premium quality potatoes. Perfect for parties and snacking.",
+      "rating": 4.3,
+      "unit": "200g",
+      "discount": 15,
+      "inStock": true
+    },
+    {
+      "id": "p6",
+      "name": "Orange Juice",
+      "price": 80,
+      "image": "https://cdn-icons-png.flaticon.com/512/2405/2405479.png",
+      "category": "Beverages",
+      "description": "100% pure orange juice with no added sugar. Freshly squeezed and packed with vitamin C.",
+      "rating": 4.7,
+      "unit": "1 Liter",
+      "inStock": true
+    },
+    {
+      "id": "p7",
+      "name": "Fresh Carrots",
+      "price": 35,
+      "image": "https://cdn-icons-png.flaticon.com/512/2224/2224066.png",
+      "category": "Vegetables",
+      "description": "Crunchy and sweet carrots. Rich in beta-carotene and fiber. Great for salads, juices, and cooking.",
+      "rating": 4.4,
+      "unit": "500g",
+      "inStock": true
+    },
+    {
+      "id": "p8",
+      "name": "Red Apples",
+      "price": 120,
+      "image": "https://cdn-icons-png.flaticon.com/512/415/415733.png",
+      "category": "Fruits",
+      "description": "Crisp and sweet red apples. Imported premium quality. Rich in antioxidants and dietary fiber.",
+      "rating": 4.9,
+      "unit": "1 kg",
+      "discount": 20,
+      "inStock": true
+    },
+    {
+      "id": "p9",
+      "name": "Greek Yogurt",
+      "price": 70,
+      "image": "https://cdn-icons-png.flaticon.com/512/1047/1047711.png",
+      "category": "Dairy",
+      "description": "Thick and creamy Greek yogurt. High in protein and probiotics. Perfect for breakfast and smoothies.",
+      "rating": 4.8,
+      "unit": "400g",
+      "inStock": true
+    },
+    {
+      "id": "p10",
+      "name": "Chocolate Cookies",
+      "price": 55,
+      "image": "https://cdn-icons-png.flaticon.com/512/541/541732.png",
+      "category": "Bakery",
+      "description": "Delicious chocolate chip cookies. Freshly baked with premium chocolate. Perfect with tea or coffee.",
+      "rating": 4.5,
+      "unit": "300g",
+      "discount": 10,
+      "inStock": true
+    },
+    {
+      "id": "p11",
+      "name": "Onions",
+      "price": 30,
+      "image": "https://cdn-icons-png.flaticon.com/512/2224/2224107.png",
+      "category": "Vegetables",
+      "description": "Fresh red onions. Essential ingredient for cooking. Rich in antioxidants and vitamins.",
+      "rating": 4.2,
+      "unit": "1 kg",
+      "inStock": true
+    },
+    {
+      "id": "p12",
+      "name": "Mangoes",
+      "price": 150,
+      "image": "https://cdn-icons-png.flaticon.com/512/590/590685.png",
+      "category": "Fruits",
+      "description": "Sweet and juicy Alphonso mangoes. King of fruits. Rich in vitamins A and C.",
+      "rating": 5.0,
+      "unit": "1 dozen",
+      "discount": 25,
+      "inStock": true
+    },
+    {
+      "id": "p13",
+      "name": "Cheddar Cheese",
+      "price": 200,
+      "image": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",
+      "category": "Dairy",
+      "description": "Premium aged cheddar cheese. Perfect for sandwiches, burgers, and pasta. Rich and creamy taste.",
+      "rating": 4.7,
+      "unit": "200g",
+      "inStock": true
+    },
+    {
+      "id": "p14",
+      "name": "Croissants",
+      "price": 90,
+      "image": "https://cdn-icons-png.flaticon.com/512/2771/2771408.png",
+      "category": "Bakery",
+      "description": "Buttery and flaky croissants. Freshly baked every morning. Perfect for breakfast.",
+      "rating": 4.6,
+      "unit": "Pack of 4",
+      "inStock": true
+    },
+    {
+      "id": "p15",
+      "name": "Nachos",
+      "price": 65,
+      "image": "https://cdn-icons-png.flaticon.com/512/1046/1046857.png",
+      "category": "Snacks",
+      "description": "Crunchy corn nachos. Perfect for dips and parties. Made with premium corn.",
+      "rating": 4.4,
+      "unit": "250g",
+      "discount": 12,
+      "inStock": true
+    },
+    {
+      "id": "p16",
+      "name": "Green Tea",
+      "price": 120,
+      "image": "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+      "category": "Beverages",
+      "description": "Premium green tea leaves. Rich in antioxidants. Helps in weight management and boosts metabolism.",
+      "rating": 4.8,
+      "unit": "100g",
+      "inStock": true
+    },
+    {
+      "id": "p17",
+      "name": "Bell Peppers",
+      "price": 80,
+      "image": "https://cdn-icons-png.flaticon.com/512/2224/2224066.png",
+      "category": "Vegetables",
+      "description": "Colorful bell peppers. Rich in vitamins and antioxidants. Perfect for salads and stir-fry.",
+      "rating": 4.5,
+      "unit": "500g",
+      "inStock": true
+    },
+    {
+      "id": "p18",
+      "name": "Strawberries",
+      "price": 180,
+      "image": "https://cdn-icons-png.flaticon.com/512/590/590772.png",
+      "category": "Fruits",
+      "description": "Fresh and sweet strawberries. Rich in vitamin C and antioxidants. Perfect for desserts.",
+      "rating": 4.9,
+      "unit": "250g",
+      "discount": 15,
+      "inStock": true
+    },
+    {
+      "id": "p19",
+      "name": "Butter",
+      "price": 55,
+      "image": "https://cdn-icons-png.flaticon.com/512/1046/1046751.png",
+      "category": "Dairy",
+      "description": "Creamy salted butter. Made from pure milk cream. Perfect for cooking and baking.",
+      "rating": 4.6,
+      "unit": "100g",
+      "inStock": true
+    },
+    {
+      "id": "p20",
+      "name": "Muffins",
+      "price": 75,
+      "image": "https://cdn-icons-png.flaticon.com/512/2771/2771433.png",
+      "category": "Bakery",
+      "description": "Delicious blueberry muffins. Freshly baked with real blueberries. Perfect for breakfast.",
+      "rating": 4.7,
+      "unit": "Pack of 4",
+      "discount": 8,
+      "inStock": true
+    }
+  ],
+  "banners": [
+    {
+      "id": "b1",
+      "image": "https://via.placeholder.com/800x300/54B435/FFFFFF?text=Fresh+Groceries+Delivered+Fast",
+      "title": "Fresh Groceries",
+      "subtitle": "Delivered in minutes"
+    },
+    {
+      "id": "b2",
+      "image": "https://via.placeholder.com/800x300/F8C630/000000?text=Big+Discounts+on+Fruits",
+      "title": "Big Discounts",
+      "subtitle": "Up to 50% off"
+    }
+  ]
+}

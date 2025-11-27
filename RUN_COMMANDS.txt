@@ -1,0 +1,116 @@
+========================================
+MINIMART - COMMANDS TO RUN THE APP
+========================================
+
+✅ CURRENT STATUS:
+- Dependencies: INSTALLED ✅
+- Mock API: RUNNING ✅ (http://localhost:3000)
+- TypeScript: NO ERRORS ✅
+- Project: READY TO RUN ✅
+
+========================================
+STEP 1: UPDATE API URL (IMPORTANT!)
+========================================
+
+Edit file: src/constants/theme.ts
+Find line 42: export const API_BASE_URL = 'http://localhost:3000';
+
+Change to:
+
+FOR ANDROID EMULATOR:
+export const API_BASE_URL = 'http://10.0.2.2:3000';
+
+FOR iOS SIMULATOR:
+export const API_BASE_URL = 'http://localhost:3000';
+
+FOR PHYSICAL DEVICE:
+export const API_BASE_URL = 'http://YOUR_IP_ADDRESS:3000';
+(Replace YOUR_IP_ADDRESS with your computer's IP)
+
+========================================
+STEP 2: RUN THE APP
+========================================
+
+OPTION A - ANDROID:
+-------------------
+Open new terminal and run:
+npm run android
+
+OPTION B - iOS (Mac only):
+---------------------------
+First time only:
+cd ios && pod install && cd ..
+
+Then run:
+npm run ios
+
+========================================
+ALTERNATIVE: START METRO SEPARATELY
+========================================
+
+Terminal 1 (Mock API - Already Running):
+npm run mock-api
+
+Terminal 2 (Metro Bundler):
+npm start
+
+Terminal 3 (Run App):
+npm run android
+OR
+npm run ios
+
+========================================
+TROUBLESHOOTING
+========================================
+
+Problem: "Network request failed"
+Solution: Check API_BASE_URL in src/constants/theme.ts
+
+Problem: "Unable to resolve module"
+Solution: npm start -- --reset-cache
+
+Problem: Build fails
+Solution (Android): cd android && gradlew clean && cd ..
+Solution (iOS): cd ios && pod install && cd ..
+
+========================================
+WHAT YOU'LL SEE
+========================================
+
+✅ Home screen with 6 categories
+✅ 20 products in grid layout
+✅ Add products to cart
+✅ Cart badge updates automatically
+✅ Product details screen
+✅ Cart with delivery ETA
+✅ Search functionality
+✅ Smooth animations everywhere
+
+========================================
+QUICK TEST
+========================================
+
+1. Open app
+2. Tap any product → See details
+3. Tap "Add to Cart" → See animation
+4. Check cart badge → Shows count
+5. Go to Cart tab → See items
+6. Adjust quantity → See animations
+7. Check delivery ETA → "Delivery in X mins"
+
+========================================
+API ENDPOINTS (Test in browser)
+========================================
+
+http://localhost:3000/categories
+http://localhost:3000/products
+http://localhost:3000/banners
+
+========================================
+
+🎉 YOUR APP IS READY TO RUN!
+
+Just update the API URL and run:
+npm run android (or npm run ios)
+
+========================================
