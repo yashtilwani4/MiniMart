@@ -2,11 +2,6 @@
 
 A fully functional, production-ready React Native quick-commerce mobile application inspired by Blinkit. Built with TypeScript, Zustand state management, React Navigation, and beautiful Reanimated animations.
 
-![React Native](https://img.shields.io/badge/React_Native-0.73-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)
-![Zustand](https://img.shields.io/badge/Zustand-4.4-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 ## ✨ Features
 
 ### 🏠 Home Screen
@@ -289,29 +284,3 @@ APK location: `android/app/build/outputs/apk/release/`
 2. Select "Product" > "Archive"
 3. Follow App Store submission process
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Inspired by Blinkit's UI/UX
-- Icons from Flaticon
-- Built with React Native and TypeScript
-
-## 📞 Support
-
-For issues and questions:
-- Create an issue in the repository
-- Check the troubleshooting section
-- Review the mock API instructions
-
----
-
-**Made with ❤️ by MiniMart Team**
-
-Happy Coding! 🚀
